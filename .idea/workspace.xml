@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="f7ffb330-d3c2-4ac1-a0e0-690a98d9ceee" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reconhecimentos_de_imagens/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/reconhecimentos_de_imagens/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,7 +47,7 @@
       <recent name="D:\Projetos\processamento_digital_de_imagens\code\aula1" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.main (4)">
+  <component name="RunManager" selected="Python.main (3)">
     <configuration default="true" type="PythonConfigurationType" factoryName="Python">
       <module name="code" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -166,8 +167,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.main (4)" />
         <item itemvalue="Python.main (3)" />
+        <item itemvalue="Python.main (4)" />
         <item itemvalue="Python.main" />
         <item itemvalue="Python.main (1)" />
         <item itemvalue="Python.main (5)" />
@@ -186,7 +187,7 @@
       <workItem from="1614210169116" duration="133000" />
       <workItem from="1614210584717" duration="10000" />
       <workItem from="1614210616029" duration="3238000" />
-      <workItem from="1614809341706" duration="6249000" />
+      <workItem from="1614809341706" duration="7996000" />
     </task>
     <servers />
   </component>

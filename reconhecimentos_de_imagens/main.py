@@ -1,6 +1,7 @@
 # Importação das bibliotecas
 import cv2
 import numpy
+from matplotlib import pyplot as plt
 
 # Leitura da imagem com a função imread()
 image = cv2.imread('../resources/img/Direita.jpg') if numpy.random.randint(0, 10) > 5 else cv2.imread('../resources/img/Esquerda.jpg')
@@ -21,5 +22,8 @@ print('xi= ', xi, 'xf= ', xf, 'xm= ', xm)
 if xm < (xi + xf) / 2: text = 'DIREITA'
 if xm > (xi + xf) / 2: text = 'ESQUERDA'
 print(text)
-cv2.imshow(text, image)
+# cv2.imshow(text, image)
+plt.figure('Title')
+plt.imshow(image)
+plt.show()
 cv2.waitKey(0)  # espera pressionar qualquer tecla
