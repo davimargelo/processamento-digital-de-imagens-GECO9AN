@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="f7ffb330-d3c2-4ac1-a0e0-690a98d9ceee" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ativ1/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/ativ1/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -196,7 +197,7 @@
       <workItem from="1614210616029" duration="3238000" />
       <workItem from="1614809341706" duration="8061000" />
       <workItem from="1615053743013" duration="634000" />
-      <workItem from="1615653265877" duration="8358000" />
+      <workItem from="1615653265877" duration="9093000" />
     </task>
     <servers />
   </component>

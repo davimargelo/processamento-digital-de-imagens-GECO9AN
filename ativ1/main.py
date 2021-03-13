@@ -39,7 +39,7 @@ def read1():
     placa1 = cv2.cvtColor(placa1, cv2.COLOR_BGR2GRAY)
     processed_placa1 = process.thresholding(placa1)
 
-    custom_config = r'-c tessedit_char_blacklist=abcdefghijklmnopqrstuvwxyz/ --psm 6'
+    custom_config = r'-c tessedit_char_whitelist=ABCDEFGHIJKLMNOPQRSTUVWXYZ-1234567890 --psm 6'
     a = (pytesseract.image_to_string(processed_placa1, config=custom_config)).removesuffix('').replace('\n', '')
 
     filter(a)
@@ -54,7 +54,7 @@ def read2():
     placa2 = cv2.cvtColor(placa2, cv2.COLOR_BGR2GRAY)
     processed_placa2 = process.dilate(placa2)
 
-    custom_config = r'-c tessedit_char_blacklist=abcdefghijklmnopqrstuvwxyz/ --psm 6'
+    custom_config = r'-c tessedit_char_whitelist=ABCDEFGHIJKLMNOPQRSTUVWXYZ-1234567890 --psm 6'
     a = (pytesseract.image_to_string(processed_placa2, config=custom_config)).removesuffix('').replace('\n', '')
 
     filter(a)
@@ -69,7 +69,7 @@ def read3():
     placa3 = cv2.cvtColor(placa3, cv2.COLOR_BGR2GRAY)
     processed_placa3 = process.thresholding(placa3)
 
-    custom_config = r'-c tessedit_char_blacklist=abcdefghijklmnopqrstuvwxyz/ --psm 6'
+    custom_config = r'-c tessedit_char_whitelist=ABCDEFGHIJKLMNOPQRSTUVWXYZ-1234567890 --psm 6'
     a = (pytesseract.image_to_string(processed_placa3, config=custom_config)).removesuffix('').replace('\n', '')
 
     filter(a)
