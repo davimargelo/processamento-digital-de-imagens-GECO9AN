@@ -1,7 +1,6 @@
 import math
 
 import cv2
-import matplotlib.image as mpimg
 from matplotlib import pyplot as plt
 
 cv2.destroyAllWindows()

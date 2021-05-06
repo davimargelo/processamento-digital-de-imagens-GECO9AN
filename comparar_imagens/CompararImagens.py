@@ -1,7 +1,7 @@
 import cv2
 from utils import process
 import copy
-import time;
+import time
 
 original = cv2.imread("../resources/img/Modelo.jpg")
 duplicate = cv2.imread("../resources/img/Recorte.jpg")
