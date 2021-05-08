@@ -1,0 +1,41 @@
+from enum import Enum
+
+
+class CORES(Enum):
+    AZUL = 120, 78, 31
+    VERDE = 141, 209, 168
+
+
+class TIPOS(Enum):
+    AB01 = 'AB01'
+    AB02 = 'AB02'
+    AC01 = 'AC01'
+    AC02 = 'AC02'
+
+
+def PARAMS_COM_RETANGULO_HORIZONTAL(Enum, QUADRADO_X=None, QUADRADO_Y=None, RETANGULO_Y=None, RETANGULO_X1=None,
+                                    RETANGULO_X2=None):
+    return {
+        'QUADRADO_X': QUADRADO_X,
+        'QUADRADO_Y': QUADRADO_Y,
+        'RETANGULO_Y': RETANGULO_Y,
+        'RETANGULO_X1': RETANGULO_X1,
+        'RETANGULO_X2': RETANGULO_X2
+    }
+
+def PARAMS_COM_RETANGULO_VERTICAL(Enum, QUADRADO_X=None, QUADRADO_Y=None, RETANGULO_X=None, RETANGULO_Y1=None,
+                                    RETANGULO_Y2=None):
+    return {
+        'QUADRADO_X': QUADRADO_X,
+        'QUADRADO_Y': QUADRADO_Y,
+        'RETANGULO_X': RETANGULO_X,
+        'RETANGULO_Y1': RETANGULO_Y1,
+        'RETANGULO_Y2': RETANGULO_Y2
+    }
+
+class QUA_RET(Enum):
+    AB01 = PARAMS_COM_RETANGULO_HORIZONTAL(Enum, 85, 50, 210, 290, 515)
+    AB02 = PARAMS_COM_RETANGULO_HORIZONTAL(Enum, 90, 145, 145, 290, 500)
+
+    AC01 = PARAMS_COM_RETANGULO_VERTICAL(Enum, 105, 220, 430, 60, 230)
+    AC02 = PARAMS_COM_RETANGULO_VERTICAL(Enum, 285, 150, 430, 60, 230)

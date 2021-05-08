@@ -2,11 +2,10 @@ import copy
 import os
 
 import cv2
-import numpy as np
 from matplotlib import pyplot as plt
 
 import algorithm
-import process
+from ativ2.utils import process
 
 try:
 
@@ -19,7 +18,7 @@ import pytesseract
 pytesseract.pytesseract.tesseract_cmd = r'C:\Program Files\Tesseract-OCR\tesseract'
 
 
-def go(name):
+def start(name):
     print('\n')
     cv2.destroyAllWindows()
     arquivo = './resources/img/' + name
@@ -79,7 +78,7 @@ placas_iguais = os.listdir('./resources/img/FotosPlacas')
 placas_com_erro = os.listdir('./resources/img/FotosPlacasComErro')
 
 for placa in placas_iguais:
-    go('FotosPlacas/' + placa)
+    start('FotosPlacas/' + placa)
 
 for placa in placas_com_erro:
-    go('FotosPlacasComErro/' + placa)
+    start('FotosPlacasComErro/' + placa)

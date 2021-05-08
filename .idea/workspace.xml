@@ -5,29 +5,18 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ativ2/algorithm.py" beforeDir="false" afterPath="$PROJECT_DIR$/ativ2/algorithm.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ativ2/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/ativ2/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ativ2/resources/img/FotosPlacas/Slide7.JPG" beforeDir="false" afterPath="$PROJECT_DIR$/ativ2/resources/img/bugadas_FotosPlacas/Slide7.JPG" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ativ2/resources/img/FotosPlacasComErro/Slide12.JPG" beforeDir="false" afterPath="$PROJECT_DIR$/ativ2/resources/img/bugadas_FotosPlacasComErro/Slide12.JPG" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ativ2/resources/img/FotosPlacasComErro/Slide3.JPG" beforeDir="false" afterPath="$PROJECT_DIR$/ativ2/resources/img/bugadas_FotosPlacas/Slide3.JPG" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ativ2/resources/img/FotosPlacasComErro/Slide7.JPG" beforeDir="false" afterPath="$PROJECT_DIR$/ativ2/resources/img/bugadas_FotosPlacasComErro/Slide7.JPG" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ativ2/results/AB01/diferentes/Slide1.JPG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ativ2/results/AB01/diferentes/Slide5.JPG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ativ2/results/AB01/diferentes/Slide9.JPG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ativ2/results/AB01/iguais/Slide1.JPG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ativ2/results/AB01/iguais/Slide5.JPG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ativ2/results/AB02/diferentes/Slide10.JPG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ativ2/results/AB02/diferentes/Slide2.JPG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ativ2/results/AB02/iguais/Slide2.JPG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ativ2/results/AB02/iguais/Slide6.JPG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ativ2/results/AC01/diferentes/Slide11.JPG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ativ2/results/AC01/diferentes/Slide7.JPG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ativ2/results/AC01/iguais/Slide11.JPG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ativ2/results/AC01/iguais/Slide3.JPG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ativ2/results/AC01/iguais/Slide7.JPG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ativ2/results/AC02/diferentes/Slide12.JPG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ativ2/results/AC02/diferentes/Slide4.JPG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ativ2/results/AC02/diferentes/Slide8.JPG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ativ2/results/AC02/iguais/Slide4.JPG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ativ2/results/AC02/iguais/Slide8.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ativ2/process.py" beforeDir="false" afterPath="$PROJECT_DIR$/ativ2/utils/process.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ativ2/results/AB01/iguais/FotosPlacas_Slide1.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ativ2/results/AB01/iguais/FotosPlacas_Slide5.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ativ2/results/AB01/iguais/FotosPlacas_Slide9.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ativ2/results/AB02/iguais/FotosPlacas_Slide10.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ativ2/results/AB02/iguais/FotosPlacas_Slide2.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ativ2/results/AB02/iguais/FotosPlacas_Slide6.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ativ2/results/AC01/iguais/FotosPlacas_Slide11.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ativ2/results/AC01/iguais/FotosPlacas_Slide3.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ativ2/results/AC02/iguais/FotosPlacas_Slide12.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ativ2/results/AC02/iguais/FotosPlacas_Slide4.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ativ2/results/AC02/iguais/FotosPlacas_Slide8.JPG" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,6 +27,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Python Script" />
+        <option value="package.json" />
       </list>
     </option>
   </component>
@@ -61,8 +51,9 @@
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="restartRequiresConfirmation" value="false" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.tabs" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -73,11 +64,11 @@
       <recent name="D:\Projetos\processamento_digital_de_imagens\code\projeto2v2\utils" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Projetos\processamento_digital_de_imagens\code\ativ2" />
+      <recent name="D:\Projetos\processamento_digital_de_imagens\code\ativ2\utils" />
       <recent name="D:\Projetos\processamento_digital_de_imagens\code\ativ2\resources\img\bugadas_FotosPlacasComErro" />
       <recent name="D:\Projetos\processamento_digital_de_imagens\code\ativ2\resources\img\bugadas_FotosPlacas" />
       <recent name="D:\Projetos\processamento_digital_de_imagens\code\ativ2\resources\img\bugadas" />
-      <recent name="D:\Projetos\processamento_digital_de_imagens\code\ativ2\resources\img\AC02" />
-      <recent name="D:\Projetos\processamento_digital_de_imagens\code\ativ2\resources\img\AC01" />
     </key>
   </component>
   <component name="RunManager" selected="Python.main">
@@ -129,9 +120,6 @@
       <module name="code" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ativ2" />
       <option name="IS_MODULE_SDK" value="true" />
@@ -166,28 +154,6 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="main (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="code" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ativ1" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ativ1/main.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="true" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="code" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -207,13 +173,32 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="tipos" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="code" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ativ2" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ativ2/tipos.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Python.main" />
         <item itemvalue="Python.delete_results" />
         <item itemvalue="Python.algorithm" />
+        <item itemvalue="Python.tipos" />
         <item itemvalue="Python.CompararImagens" />
-        <item itemvalue="Python.main (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -238,7 +223,7 @@
       <workItem from="1620489382072" duration="49000" />
       <workItem from="1620489569915" duration="89000" />
       <workItem from="1620489854813" duration="247000" />
-      <workItem from="1620490117997" duration="8368000" />
+      <workItem from="1620490117997" duration="16683000" />
     </task>
     <servers />
   </component>
