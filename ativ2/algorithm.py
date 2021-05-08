@@ -64,7 +64,7 @@ def compare(name, tipo, difference, imagem, gabarito, color_tolerance=None):
     b, g, r = cv2.split(difference)
     t = 0
 
-    diff_tolerance = (gabarito.shape[0] * gabarito.shape[1]) * 0.1;
+    diff_tolerance = (gabarito.shape[0] * gabarito.shape[1]) * 0.05;
 
     if color_tolerance is not None:
         t = color_tolerance
@@ -72,15 +72,15 @@ def compare(name, tipo, difference, imagem, gabarito, color_tolerance=None):
     pixels_diferentes = 0
     for y in range(0, gabarito.shape[0], 1):
         for x in range(0, gabarito.shape[1], 1):
-            if b[y, x] > t or g[y, x] > t or r[y, x] > t:
+            if b[y, x] > t or g[y, x] > t or r[y, x] > t or b[y, x] < t*-1 or g[y, x] < t*-1 or r[y, x] < t*-1:
                 imagem[y, x] = (0, 0, 255)
                 pixels_diferentes = pixels_diferentes + 1
 
     if pixels_diferentes <= diff_tolerance:
-        cv2.imwrite('results/' + tipo + '/iguais/' + name.split('/')[1], imagem)
+        cv2.imwrite('results/' + tipo + '/iguais/' + name.split('/')[0]+'_'+name.split('/')[1], imagem)
         print("As imagens são semelhantes. {} pixels diferentes".format(pixels_diferentes))
     else:
-        cv2.imwrite('results/' + tipo + '/diferentes/' + name.split('/')[1], imagem)
+        cv2.imwrite('results/' + tipo + '/diferentes/' + name.split('/')[0]+'_'+name.split('/')[1], imagem)
         print("As imagens são diferentes. {} pixels diferentes".format(pixels_diferentes))
 
     return imagem
